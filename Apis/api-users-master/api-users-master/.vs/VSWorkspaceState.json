@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ApiUsersAuthentication",
+    "\\ApiUsersAuthentication\\Controllers",
+    "\\ApiUsersAuthentication\\Models",
+    "\\ApiUsersAuthentication\\obj",
+    "\\ApiUsersAuthentication\\Properties"
+  ],
+  "SelectedNode": "\\ApiUsersAuthentication\\Models\\UserAuth.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ApiUsersAuthentication" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\ldiplan\\Desktop\\Resources\\\.Net\\Proyecto\\point-of-sale-group-7\\ApiUsersAuthentication\\ApiUsersAuthentication\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
