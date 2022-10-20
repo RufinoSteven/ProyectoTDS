@@ -1,0 +1,38 @@
+/* 
+Developed by Luis Diplan All Rights Reserved 2022
+*/
+.login {
+    min-height: 100vh;
+  }
+  .main-container-login{
+    background-color: white;
+    
+    
+  }
+  .bg-image {
+    background-image: url('https://dgcenter.mx/wp-content/uploads/2020/01/9-1.jpg');
+    background-size:cover;
+    background-position:center;
+    width:800px;
+    height:900px;
+    border-radius:300px;
+    top: 100px;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: block;
+
+    
+   
+    
+  }
+  
+  .login-heading {
+    font-weight: 300;
+    color: green;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
