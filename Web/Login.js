@@ -11,7 +11,7 @@ import withReactContent from 'sweetalert2-react-content'
 export default function Login(){
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = values => ValidateUser(values.userName, values.password);
-    const baseUrl = "https://localhost:44396/api"
+    const baseUrl = "http://userapi.somee.com/api"
     const cookies = new Cookies();
     const role = cookies.get('role')
     const MySwal = withReactContent(Swal)
@@ -32,9 +32,9 @@ export default function Login(){
                 cookies.set('userName', userName,{path: "/"})
                 
                 if(userRole == 1){
-                    window.location.href="./adashboard"
+                    window.location.href="./products"
                 } else{
-                    window.location.href=`./udashboard`
+                    window.location.href=`./products`
                 }
             } else {
               MySwal.fire({
